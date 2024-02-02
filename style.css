@@ -1,0 +1,54 @@
+/* style.css */
+
+body{
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
+
+ul, 
+.title,
+.subtitle{
+    text-align: center;
+}
+
+.image-desc,
+h3{
+    font-style: italic;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #0000ff;
+}
+
+.link{
+    font-size: 24px;
+    color: #ffffff;
+    background-color: #8a2be2;
+}
+
+.image{
+    width: 500px;
+    height: auto;
+}
+
+.image-desc{
+    font-size: small;
+}
+
+.subtitle{
+    font-size: 28px;
+    background-color: red;
+}
+
+h3{
+    font-size: 22px;
+}
+
+ul{
+    background-color: aquamarine;
+}
+
+ol{
+    background-color: chocolate;
+}
