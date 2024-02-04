@@ -46,26 +46,57 @@ li{
     margin: 10px auto;
 }
 
+.container-image{
+    width: 600px;
+    margin: 10px auto;
+    background-color: lightblue;
+    padding: 16px;
+}
+
 .image{
     width: 500px;
     height: auto;
+    margin: 0px auto;
+    display: block;
 }
 
 .image-desc{
     font-size: small;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.container-ingredients,
+.container-directions{
+    width: 800px;
+    margin: 0px auto;
+    background-color: rgba(240, 128, 128, 0.5);
+    padding: 12px;
+    padding-bottom: 1px;
+    margin: 0px auto 12px;
 }
 
 .subtitle{
     font-size: 28px;
-    background-color: red;
+    background-color: lightcoral;
+    margin: 0px;
+}
+
+.directions{
+    background-color: burlywood;
+    margin: 12px auto;
+    padding: 4px;
 }
 
 h3{
     font-size: 22px;
+    margin: 0px;
 }
 
 ul{
     list-style-type: none;
+    padding: 0px;
+    margin-bottom: 0px;
 }
 
 ol{
