@@ -15,16 +15,35 @@ h3{
     font-style: italic;
 }
 
+.container-title{
+    width: 600px;
+    margin: 20px auto;
+}
+
 .title{
     font-size: 36px;
     font-weight: bold;
-    background-color: #0000ff;
+    background-color: lightblue;
+    padding: 8px;
+}
+.container-links{
+    width: 900px;
+    margin: 0px auto;
+    background-color: rgba(127, 255, 212, 0.5);
+    padding: 6px 12px;
 }
 
 .link{
     font-size: 24px;
     color: #ffffff;
     background-color: #8a2be2;
+    padding: 4px;
+    display: inline-block;
+    width: 300px;
+}
+
+li{
+    margin: 10px auto;
 }
 
 .image{
@@ -46,7 +65,7 @@ h3{
 }
 
 ul{
-    background-color: aquamarine;
+    list-style-type: none;
 }
 
 ol{
